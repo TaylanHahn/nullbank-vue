@@ -1,6 +1,7 @@
 # NullBank Vue 🏦
 
-Aplicação front-end desenvolvida em **Vue.js** que simula funcionalidades de um aplicativo de controle financeiro digital fictício chamado **NullBank**.  
+Aplicação front-end desenvolvida em **Vue.js** que simula funcionalidades de um aplicativo de controle financeiro digital fictício chamado **NullBank**. 
+
 Este projeto tem como objetivo demonstrar conceitos de **SPA (Single Page Application)**, **componentização** e boas práticas de desenvolvimento com Vue.
 
 ---
