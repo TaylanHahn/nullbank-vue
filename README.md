@@ -55,7 +55,6 @@ npm run build
 ````
 
 ## 🎯 Funcionalidades
-- Interface de login e cadastro de usuário
 - Simulação de saldo e transações
 - Navegação dinâmica entre páginas
 - Componentes reutilizáveis e responsivos
