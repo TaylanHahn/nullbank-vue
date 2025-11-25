@@ -15,6 +15,8 @@ Este projeto tem como objetivo demonstrar conceitos de **SPA (Single Page Applic
 
 ---
 
+![Print da aplicação](./null-prints/nullbank_01.png)
+
 ## 📂 Estrutura do Projeto
 
 ````txt
