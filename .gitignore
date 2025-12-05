@@ -1,0 +1,70 @@
+# .gitignore para projeto Vue (Node.js)
+
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+.vite/
+.vitepress/dist/
+
+# Environment files
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency manager folders
+.pnpm-store/
+.pnp*
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state/
+.yarn/install-state.gz
+
+# Editor/IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test coverage and reports
+coverage/
+.nyc_output/
+report/
+
+# Cache and temporary
+.cache/
+.temp/
+.tmp/
+.eslintcache
+*.log
+
+# TypeScript
+*.tsbuildinfo
+
+# Storybook
+.storybook/out/
+
+# Misc
+*.local
+!.env.example

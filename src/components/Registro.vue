@@ -31,8 +31,10 @@
 
 <script setup>
 import { ref } from 'vue';
+import { useToast } from "vue-toastification"; // Import do TOASTFICATION
 
 const emit = defineEmits(['transacaoAdicionada']);
+const toast = useToast(); // Inicializa o hook aqui
 
 const descricao = ref('');
 const valor = ref(null);
@@ -40,8 +42,10 @@ const tipo = ref('ganho');
 const categoria = ref('fixo');
 
 function registrar() {
+  // Validação
   if (!descricao.value || !valor.value || valor.value <= 0) {
-    alert('Por favor, preencha a descrição e um valor válido.');
+    // Substitui o alert pelo toast de erro
+    toast.error("Por favor, preencha a descrição e um valor válido."); 
     return;
   }
   
@@ -55,6 +59,10 @@ function registrar() {
 
   emit('transacaoAdicionada', novaTransacao);
 
+  // Mostra o toast de sucesso APÓS adicionar
+  toast.success("Movimentação registrada com sucesso!");
+
+  // Limpa os campos
   descricao.value = '';
   valor.value = null;
 }
