@@ -23,7 +23,6 @@ Este projeto tem como objetivo demonstrar conceitos de **SPA (Single Page Applic
 nullbank-vue/ 
 ├── src/ # Código-fonte principal 
 │ ├── components/ # Componentes Vue reutilizáveis 
-│ ├── views/ # Páginas da aplicação 
 │ ├── assets/ # Imagens, ícones e estilos 
 │ └── App.vue # Componente raiz 
 ├── index.html # HTML principal 
