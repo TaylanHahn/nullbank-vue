@@ -15,7 +15,7 @@ Este projeto tem como objetivo demonstrar conceitos de **SPA (Single Page Applic
 
 ---
 
-![Print da aplicação](./null-prints/nullbank_01.png)
+![Print da aplicação](./null-prints/nullbank_toast.png)
 
 ## 📂 Estrutura do Projeto
 
